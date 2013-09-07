@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @status.name %>
+</p>
+
+<p>
+  <b>Participants:</b>
+  <%= @status.participants %>
+</p>
+
+<p>
+  <b>Objecta:</b>
+  <%= @status.objecta %>
+</p>
+
+<p>
+  <b>Objectb:</b>
+  <%= @status.objectb %>
+</p>
+
+<p>
+  <b>Objectc:</b>
+  <%= @status.objectc %>
+</p>
+
+<p>
+  <b>Objectd:</b>
+  <%= @status.objectd %>
+</p>
+
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>

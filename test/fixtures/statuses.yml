@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  participants: 1
+  objecta: MyString
+  objectb: MyString
+  objectc: MyString
+  objectd: MyString
+
+two:
+  name: MyString
+  participants: 1
+  objecta: MyString
+  objectb: MyString
+  objectc: MyString
+  objectd: MyString
