@@ -1,16 +1,16 @@
 <h1>Listing statuses</h1>
 
-<table>
+<table class="table table-striped">
   <tr>
-    <th>Name</th>
-    <th>Participants</th>
-    <th>Objecta</th>
-    <th>Objectb</th>
-    <th>Objectc</th>
-    <th>Objectd</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <td>Name</td>
+    <td>Participants</td>
+    <td>Objecta</td>
+    <td>Objectb</td>
+    <td>Objectc</td>
+    <td>Objectd</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 
 <% @statuses.each do |status| %>
@@ -21,13 +21,14 @@
     <td><%= status.objectb %></td>
     <td><%= status.objectc %></td>
     <td><%= status.objectd %></td>
-    <td><%= link_to 'Show', status %></td>
+    <td><%= link_to 'Show Game', status %></td>
     <td><%= link_to 'Edit', edit_status_path(status) %></td>
     <td><%= link_to 'Destroy', status, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
-
+<b>  <b>
 <br />
 
-<%= link_to 'New Status', new_status_path %>
+
+<%= link_to 'New Game Request', new_status_path %>
