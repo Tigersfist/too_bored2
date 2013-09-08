@@ -1,6 +1,7 @@
 class Status < ActiveRecord::Base
   attr_accessible :name, :objecta, :objectb, :objectc, :objectd, :participants
 
+
  if participants==1
  	Action="Pat your head and rub your stomach"
  	
@@ -20,9 +21,5 @@ class Status < ActiveRecord::Base
  elseif participants==7
  	"Everyones Favorite.... the Silent Game. Whoever talks second loses."
 
- else
 
-
-
-  
 end
